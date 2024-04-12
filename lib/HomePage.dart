@@ -84,9 +84,9 @@ class HomePage extends StatelessWidget {
         ),
 
       ),
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.white, // all colors change with AppBar
       body: Center(child: Text("appBar using PrefferredSize",
-      style: TextStyle(color: Colors.orange,fontSize: 20),),),// all colors change with AppBar
+      style: TextStyle(color: Colors.orange,fontSize: 20),),),
     );
   }
 }
